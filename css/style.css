@@ -111,7 +111,6 @@ header ul li a.active::after {
   background: red;
   transform: translateY(6px);
 }
-
 header .logo a {
   font-size: 30px;
   text-transform: uppercase;
