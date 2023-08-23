@@ -17,6 +17,9 @@ img {
   width: 100%;
   display: block;
 }
+body.active {
+  overflow: hidden;
+}
 main {
   background: #06121b;
   max-width: 1920px;
