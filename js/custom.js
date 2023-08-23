@@ -6,11 +6,13 @@ $(document).ready(function () {
   $("#hamBurger").click(function () {
     $(this).toggleClass("active");
     $("header nav").toggleClass("active");
+    $("body").toggleClass("active");
   });
   // HamBurger Remove Event
   $("header a").click(function () {
     $("header nav").removeClass("active");
     $("#hamBurger").removeClass("active");
+    $("body").removeClass("active");
   });
   $("header ul li a").click(function () {
     $("header ul li a").removeClass("active");
