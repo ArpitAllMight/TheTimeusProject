@@ -42,11 +42,11 @@
     padding-left: 35px;
   }
   nav#navOne {
-    top: 57px;
+    top: 65px;
     padding-top: 30px;
   }
   nav#navTwo {
-    top: 253px;
+    top: 284px;
   }
   header ul {
     flex-direction: column;
@@ -100,39 +100,19 @@
 
 @media only screen and (max-width: 884px) {
   #slickSlider .slick {
-    height: 80vh;
+    height: 50vh;
   }
   #inspiration .block p {
     font-size: 30px;
-    padding: 60px;
+    margin: 25px 0;
   }
   #dreams .block p {
     font-size: 30px;
-    padding: 60px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #slickSlider .slick {
-    height: 75vh;
-  }
-  #inspiration .block p {
-    padding: 40px;
-  }
-  #dreams .block p {
-    padding: 40px;
+    margin: 25px 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  #slickSlider .slick {
-    height: 50vh;
-    justify-content: center;
-  }
-  #slickSlider .slick p {
-    transform: translateX(0px);
-    text-align: center;
-  }
   #inspiration .row {
     margin-bottom: 45px;
   }
@@ -157,10 +137,6 @@
   #inspiration #playIcon1,
   #inspiration #playIcon2 {
     display: none;
-  }
-  #inspiration .block p {
-    padding: 30px 20px;
-    text-align: center;
   }
   #mark {
     margin-top: 10px;
@@ -192,10 +168,6 @@
   #dreams #playIcon4,
   #dreams #playIcon5 {
     display: none;
-  }
-  #dreams .block p {
-    padding: 30px 20px;
-    text-align: center;
   }
   #movement .row h3 {
     font-size: 25px;
