@@ -22,7 +22,7 @@ $(document).ready(function () {
   $("#slickSlider .slick-slider").slick({
     arrows: true,
     infinite: true,
-    speed: 500,
+    speed: 900,
     autoplay: true,
     autoplaySpeed: 2000,
     fade: true,
