@@ -17,7 +17,7 @@
     transform: translateY(9px) rotate(45deg);
   }
   header #hamBurger.active span:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-9px) rotate(-45deg);
   }
   header #hamBurger.active span:nth-child(2) {
     transform: translateX(-30px);
