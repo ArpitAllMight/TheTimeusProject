@@ -47,6 +47,7 @@
   }
   nav#navTwo {
     top: 284px;
+    height: 100vh;
   }
   header ul {
     flex-direction: column;
