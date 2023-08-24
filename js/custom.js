@@ -23,6 +23,10 @@ $(document).ready(function () {
     arrows: true,
     infinite: true,
     speed: 500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    fade: true,
+    cssEase: "linear",
   });
   // Scroll Down
   $("#scrollDown").click(function () {
@@ -116,7 +120,7 @@ $(document).ready(function () {
     arrows: false,
     dots: false,
     infinite: true,
-    speed: 1500,
+    speed: 500,
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 3,
