@@ -148,6 +148,7 @@
   }
   #mark h2.gradientBG {
     font-size: 50px;
+    line-height: 75px;
   }
   #mark #playIcon3 {
     display: none;
