@@ -120,9 +120,9 @@ header #hamBurger {
 #slickSlider {
   overflow-x: hidden;
 }
-#slickSlider .slick.one {
+/* #slickSlider .slick.one {
   background: url(../assets/webp/slider1.webp);
-}
+} */
 #slickSlider .slick.two {
   background: url(../assets/webp/slider2.webp);
 }
