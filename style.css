@@ -122,16 +122,14 @@ header #hamBurger {
 }
 /* #slickSlider .slick.one {
   background: url(../assets/webp/slider1.webp);
-} */
+}
 #slickSlider .slick.two {
   background: url(../assets/webp/slider2.webp);
 }
 #slickSlider .slick.three {
   background: url(../assets/webp/slider3.webp);
-}
-#slickSlider .slick.one,
-#slickSlider .slick.two,
-#slickSlider .slick.three {
+} */
+#slickSlider .slick {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
