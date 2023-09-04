@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TheTimeus By Arpit</title>
-    <link rel="icon" href="webp/favIcon.webp" type="image/x-icon" />
+    <link rel="icon" href="assets/webp/favIcon.webp" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,55 +15,62 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
     />
-    <link rel="stylesheet" href="slickSlider/slick/slick.css" />
-    <link rel="stylesheet" href="slickSlider/slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="assets/slickSlider/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slickSlider/slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
-    <main>
-      <header>
-        <div class="container">
-          <nav id="navOne">
-            <ul>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Buy</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Portfolio</a></li>
-            </ul>
-          </nav>
-          <div class="logo">
-            <a href="#">Logo</a>
-          </div>
-          <nav id="navTwo">
-            <ul>
-              <li><a href="#" class="active">Our Manifesto</a></li>
-              <li><a href="#">Brand Experience</a></li>
-              <li><a href="#">Logo Philosophy</a></li>
-            </ul>
-          </nav>
-          <div id="hamBurger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/webp/Logo.webp" alt="Logo" />
+          </a>
         </div>
-      </header>
+        <nav class="nav">
+          <ul>
+            <li><a href="#" class="active">Our Manifesto</a></li>
+            <li><a href="#">Brand Experience</a></li>
+            <li><a href="#">Logo Philosophy</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div id="hamBurger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
       <section id="slickSlider">
         <div class="slick-slider">
-          <div class="slick one">
+          <div
+            class="slick"
+            style="background-image: url(../assets/webp/slider1.webp)"
+          >
             <p>
               Movement<br />
               <span class="bold">That Inspires</span>
             </p>
           </div>
-          <div class="slick two">
+          <div
+            class="slick"
+            style="background-image: url(../assets/webp/slider2.webp)"
+          >
             <p>
               Movement<br />
               <span class="bold">That Inspires</span>
             </p>
           </div>
-          <div class="slick three">
+          <div
+            class="slick"
+            style="background-image: url(../assets/webp/slider3.webp)"
+          >
             <p>
               Movement<br />
               <span class="bold">That Inspires</span>
@@ -89,10 +96,17 @@
           </div>
           <div class="column">
             <div class="videoContainer">
-              <video controls poster="webp/Section2.webp" id="videoPlayer1">
-                <source src="video/LITO-SORA-2014.mp4" type="video/mp4" />
+              <video
+                controls
+                poster="assets/webp/Section2.webp"
+                id="videoPlayer1"
+              >
+                <source
+                  src="assets/video/LITO-SORA-2014.mp4"
+                  type="video/mp4"
+                />
               </video>
-              <img src="webp/PlayIcon.webp" alt="Icon" id="playIcon1" />
+              <img src="assets/webp/PlayIcon.webp" alt="Icon" id="playIcon1" />
             </div>
             <div class="block">
               <p>
@@ -111,10 +125,17 @@
               </p>
             </div>
             <div class="videoContainer">
-              <video controls poster="webp/Section3.webp" id="videoPlayer2">
-                <source src="video/LITO-SORA-2014.mp4" type="video/mp4" />
+              <video
+                controls
+                poster="assets/webp/Section3.webp"
+                id="videoPlayer2"
+              >
+                <source
+                  src="assets/video/LITO-SORA-2014.mp4"
+                  type="video/mp4"
+                />
               </video>
-              <img src="webp/PlayIcon.webp" alt="Icon" id="playIcon2" />
+              <img src="assets/webp/PlayIcon.webp" alt="Icon" id="playIcon2" />
             </div>
           </div>
         </div>
@@ -122,10 +143,14 @@
       <section id="mark">
         <div class="container">
           <div class="videoContainer">
-            <video controls poster="webp/Section4.webp" id="videoPlayer3">
-              <source src="video/LITO-SORA-2014.mp4" type="video/mp4" />
+            <video
+              controls
+              poster="assets/webp/Section4.webp"
+              id="videoPlayer3"
+            >
+              <source src="assets/video/LITO-SORA-2014.mp4" type="video/mp4" />
             </video>
-            <img src="webp/PlayIcon.webp" alt="Icon" id="playIcon3" />
+            <img src="assets/webp/PlayIcon.webp" alt="Icon" id="playIcon3" />
           </div>
           <div class="row">
             <p>That enables you to</p>
@@ -138,10 +163,17 @@
         <div class="container">
           <div class="column">
             <div class="videoContainer">
-              <video controls poster="webp/Section5.webp" id="videoPlayer4">
-                <source src="video/LITO-SORA-2014.mp4" type="video/mp4" />
+              <video
+                controls
+                poster="assets/webp/Section5.webp"
+                id="videoPlayer4"
+              >
+                <source
+                  src="assets/video/LITO-SORA-2014.mp4"
+                  type="video/mp4"
+                />
               </video>
-              <img src="webp/PlayIcon.webp" alt="Icon" id="playIcon4" />
+              <img src="assets/webp/PlayIcon.webp" alt="Icon" id="playIcon4" />
             </div>
             <div class="block">
               <p>
@@ -160,10 +192,17 @@
               </p>
             </div>
             <div class="videoContainer">
-              <video controls poster="webp/Section6.webp" id="videoPlayer5">
-                <source src="video/LITO-SORA-2014.mp4" type="video/mp4" />
+              <video
+                controls
+                poster="assets/webp/Section6.webp"
+                id="videoPlayer5"
+              >
+                <source
+                  src="assets/video/LITO-SORA-2014.mp4"
+                  type="video/mp4"
+                />
               </video>
-              <img src="webp/PlayIcon.webp" alt="Icon" id="playIcon5" />
+              <img src="assets/webp/PlayIcon.webp" alt="Icon" id="playIcon5" />
             </div>
           </div>
         </div>
@@ -179,11 +218,15 @@
             </h3>
           </div>
           <div class="videoContainer">
-            <video controls poster="webp/Section7.webp" id="videoPlayer6">
-              <source src="video/LITO-SORA-2014.mp4" type="video/mp4" />
+            <video
+              controls
+              poster="assets/webp/Section7.webp"
+              id="videoPlayer6"
+            >
+              <source src="assets/video/LITO-SORA-2014.mp4" type="video/mp4" />
             </video>
             <div id="playIcon6">
-              <img src="webp/PlayIcon.webp" alt="Icon" />
+              <img src="assets/webp/PlayIcon.webp" alt="Icon" />
               <p>Play Brand Film</p>
             </div>
           </div>
@@ -251,32 +294,32 @@
           <h5>Products That Inspires</h5>
           <div class="productSlider">
             <div class="productSlide one">
-              <img src="webp/Product1.webp" alt="Image" />
+              <img src="assets/webp/Product1.webp" alt="Image" />
               <p class="bold">Product One</p>
               <a href="#">Know More</a>
             </div>
             <div class="productSlide two">
-              <img src="webp/Product2.webp" alt="Image" />
+              <img src="assets/webp/Product2.webp" alt="Image" />
               <p class="bold">Product Two</p>
               <a href="#">Know More</a>
             </div>
             <div class="productSlide three">
-              <img src="webp/Product3.webp" alt="Image" />
+              <img src="assets/webp/Product3.webp" alt="Image" />
               <p class="bold">Product Three</p>
               <a href="#">Know More</a>
             </div>
             <div class="productSlide one">
-              <img src="webp/Product4.webp" alt="Image" />
+              <img src="assets/webp/Product4.webp" alt="Image" />
               <p class="bold">Product Four</p>
               <a href="#">Know More</a>
             </div>
             <div class="productSlide two">
-              <img src="webp/Product5.webp" alt="Image" />
+              <img src="assets/webp/Product5.webp" alt="Image" />
               <p class="bold">Product Five</p>
               <a href="#">Know More</a>
             </div>
             <div class="productSlide three">
-              <img src="webp/Product6.webp" alt="Image" />
+              <img src="assets/webp/Product6.webp" alt="Image" />
               <p class="bold">Product Six</p>
               <a href="#">Know More</a>
             </div>
@@ -287,9 +330,125 @@
         <i class="fa-solid fa-circle-up"></i>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <div class="block">
+          <h6>Quick Links</h6>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Events
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Donate us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <h6>Policies</h6>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Disclaimer
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Cache & Cookies
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <h6>Contact us</h6>
+          <ul>
+            <li>
+              <a href="#">
+                Office No. 123, <br />
+                6th Floor, Sector - 31, <br />
+                Rohini, New Delhi - 110042.
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                Info@TheTimeus.Com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-circle-right"></i>
+                +91 987 654 321
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <h6>The Timeus Project</h6>
+          <a href="#">
+            Children experience rapid physical growth during their early years.
+            This includes changes in height, weight, motor skills, and the
+            development of primary and secondary sexual characteristics during
+            adolescence.
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <section id="copyright">
+      <div class="container">
+        <a href="#">
+          COPYRIGHT © 2023 THE TIMEUS PROJECT - ALL RIGHTS RESERVED
+        </a>
+      </div>
+    </section>
     <!-- JS -->
-    <script src="js/jquery-3.7.0.min.js"></script>
-    <script src="slickSlider/slick/slick.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/slickSlider/slick/slick.min.js"></script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>
