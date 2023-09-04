@@ -148,7 +148,8 @@
   }
   #mark h2.gradientBG {
     font-size: 50px;
-    line-height: 75px;
+    line-height: 55px;
+    text-align: center;
   }
   #mark #playIcon3 {
     display: none;
