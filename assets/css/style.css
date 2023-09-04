@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+  display: block;
+}
+main {
+  background: #06121b;
+  max-width: 1920px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: white;
+  font-weight: 600;
+}
+p,
+a {
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s all linear;
+}
+.gradientBG {
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff4c00,
+    #fe6e00,
+    #fc8a00,
+    #f9a300,
+    #eaaa00,
+    #dbaf00,
+    #ccb40c,
+    #b1a915,
+    #979d1d,
+    #809023,
+    #6b8327
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bold {
+  font-weight: 600;
+}
+video {
+  width: 100%;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+header {
+  background: #06121b;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+header ul li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #06121b;
+  transform: translateY(10px);
+  transition: 0.4s all linear;
+}
+header ul li a.active::after {
+  background: red;
+  transform: translateY(6px);
+}
+header .logo {
+  width: 180px;
+}
+header .logo a img {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+header .nav a {
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+header #hamBurger {
+  display: none;
+  cursor: pointer;
+  padding: 15px;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#slickSlider {
+  overflow-x: hidden;
+}
+#slickSlider .slick {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#slickSlider .slick p {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+}
+#slickSlider .slick-next {
+  right: 20px;
+}
+#slickSlider .slick-prev {
+  left: 15px;
+}
+#slickSlider .slick-prev,
+.slick-next {
+  z-index: 1;
+}
+#slickSlider .slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: brown;
+}
+#scrollDown {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55px;
+  margin: auto;
+  transform: translateY(-65px);
+  cursor: pointer;
+  background: brown;
+  padding: 5px 35px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+#inspiration {
+  padding-top: 50px;
+}
+#inspiration .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#inspiration h1.gradientBG {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+#inspiration .row p {
+  text-align: center;
+  font-size: 25px;
+}
+#inspiration .videoContainer {
+  position: relative;
+  width: 50%;
+}
+#inspiration #playIcon1,
+#inspiration #playIcon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+#inspiration .column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#inspiration .column.two {
+  margin-top: 70px;
+}
+#inspiration .block {
+  width: 40%;
+}
+#inspiration .block p {
+  font-size: 40px;
+  text-align: center;
+}
+#mark {
+  margin-top: 100px;
+}
+#mark .videoContainer {
+  position: relative;
+  width: 100%;
+}
+#mark #playIcon3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+#mark .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+#mark p {
+  font-size: 25px;
+}
+#mark h2.gradientBG {
+  font-size: 100px;
+  line-height: 115px;
+}
+#dreams {
+  padding-bottom: 50px;
+}
+#dreams .column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+#dreams .videoContainer {
+  position: relative;
+  width: 50%;
+}
+#dreams #playIcon4,
+#dreams #playIcon5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+#dreams .block {
+  width: 40%;
+}
+#dreams .block p {
+  font-size: 40px;
+  text-align: center;
+}
+#movement .row {
+  margin-bottom: 50px;
+}
+#movement .row h3 {
+  font-size: 35px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+#movement .videoContainer {
+  position: relative;
+}
+#movement #playIcon6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+#movement #playIcon6 img {
+  width: 60px;
+}
+#tabs {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+#tabs span {
+  transition: 0.4s all linear;
+}
+#tabs h4 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#tabs #tabBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+#tabs #tabBtn span {
+  padding: 6px 20px;
+  border-radius: 2px;
+  font-size: 18px;
+  background: #1e2c36;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+#tabs #tabBtn span.active {
+  background: white;
+  color: #06121b;
+}
+div#tabContent div {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+#tabs #tabContent div:not(:first-of-type) {
+  display: none;
+}
+#tabs #tabContent a {
+  display: inline-block;
+  background: white;
+  color: #1e2c36;
+  padding: 5px 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+#product {
+  overflow-x: hidden;
+  padding: 50px 0;
+  background: white;
+}
+#product .productSlide {
+  margin: 0px 5px;
+}
+#product h5,
+#product p,
+#product a {
+  color: #1e2c36;
+}
+#product h5 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+#product p {
+  margin-top: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#product a {
+  font-size: 16px;
+  margin-top: 5px;
+}
+#product a:hover {
+  text-decoration: underline;
+}
+#product p,
+#product a {
+  transform: translateX(20px);
+}
+#scrollToTop {
+  position: relative;
+}
+#scrollToTop i {
+  color: brown;
+  font-size: 22px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+}
