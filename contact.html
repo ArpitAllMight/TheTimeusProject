@@ -123,7 +123,7 @@
             style="background-image: url('assets/webp/contactForm.webp')"
           ></div>
           <div class="column">
-            <form action="" method="post">
+                        <form id="contact-form">
               <input
                 type="text"
                 name="name"
@@ -151,7 +151,7 @@
                 placeholder="Your Query"
                 rows="10"
               ></textarea>
-              <input type="submit" value="Submit" />
+              <button type="button" id="submit-button">Submit</button>
             </form>
           </div>
         </div>
@@ -278,6 +278,36 @@
     </section>
     <!-- JS -->
     <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/smtp.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("contact-form");
+        const submitButton = document.getElementById("submit-button");
+
+        submitButton.addEventListener("click", function () {
+          const name = document.getElementById("name").value;
+          const mail = document.getElementById("mail").value;
+          const number = document.getElementById("number").value;
+          const message = document.getElementById("message").value;
+
+          // Configure your SMTP settings here
+          Email.send({
+            SecureToken: "56a85086-ffd9-4a73-8e96-f9945cb4559f",
+            To: "johncorneron@gmail.com",
+            From: "johncorneron@gmail.com",
+            Subject: "Contact Form Submission",
+            Body: `Name: ${name}<br>Email: ${mail}<br>Mobile No: ${number}<br>Query: ${message}`,
+          }).then(function (message) {
+            if (message === "OK") {
+              alert("Your Message Sent Successfully");
+              form.reset();
+            } else {
+              alert("Error sending message. Please try again later.");
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
