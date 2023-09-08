@@ -1,3 +1,16 @@
+/*
+Theme Name: The Timeus Project
+Theme URI: https://www.uhdpaper.com/
+Version: 1.1
+Author: Arpit Web Designer & Developer
+Author URI: https://kayoanime.com/
+Text Domain: TheTimeusProject
+Description: Custom theme development empowers you to create a website that's truly your own, aligned with your goals and preferences. However, it's important to note that custom development requires a good understanding of WordPress, HTML, CSS, and possibly PHP, or the assistance of a developer if you're not comfortable with these technologies.
+Tags: Fast, Responsive, Custom, Clean
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +22,7 @@ img {
   display: block;
 }
 body {
-  background: #06121b;
+  background: #1e2c36;
   max-width: 1920px;
   margin: auto;
 }
@@ -63,11 +76,11 @@ video {
   width: 100%;
 }
 .container {
-  max-width: 90%;
+  max-width: 95%;
   margin: auto;
 }
 header {
-  background: #06121b;
+  background: #1e2c36;
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -319,13 +332,13 @@ header #hamBurger {
   padding: 6px 20px;
   border-radius: 2px;
   font-size: 18px;
-  background: #1e2c36;
+  background: brown;
   cursor: pointer;
   text-transform: capitalize;
 }
 #tabs #tabBtn span.active {
   background: white;
-  color: #06121b;
+  color: #1e2c36;
 }
 div#tabContent div {
   text-align: center;
@@ -456,4 +469,139 @@ header.left_menu .logo {
 }
 header.left_menu nav.nav {
   order: 1;
+}
+
+/* Contact us */
+main#contact {
+  background: white;
+}
+#contact #banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#contact #bannerTitle h1 {
+  color: #1e2c36;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+}
+#contact-us {
+  background: white;
+}
+#contact-us .container {
+  display: flex;
+  column-gap: 20px;
+}
+#contact-us .column:first-child {
+  width: 30%;
+}
+#contact-us .row {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+#contact-us .block {
+  flex: 1 0 330px;
+  background: brown;
+  padding: 35px;
+  border-radius: 5px;
+}
+#contact-us .block a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#contact-us .title {
+  display: flex;
+  align-items: baseline;
+  column-gap: 12px;
+  margin-bottom: 5px;
+}
+#contact-us i,
+#contact-us h6,
+#contact-us span {
+  color: white;
+}
+#contact-us i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#contact-us h6 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#contact-us span {
+  line-height: 30px;
+}
+#contact-us .column:last-child {
+  width: 100%;
+}
+#map {
+  margin: 50px 0;
+}
+#map h2 {
+  background: #1e2c36;
+  padding: 10px 20px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+#map iframe {
+  width: 100%;
+  height: 500px;
+}
+#contactForm {
+  background: white;
+  padding-bottom: 50px;
+}
+#contactForm .container {
+  display: flex;
+}
+#contactForm h3 {
+  text-align: center;
+  background: brown;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  max-width: 95%;
+  margin: auto;
+}
+#contactForm .column:first-child {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+#contactForm .column:last-child {
+  width: 50%;
+  background: brown;
+  padding: 0px 10px;
+}
+#contactForm input,
+#contactForm textarea {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: none;
+}
+#contactForm input:focus,
+#contactForm textarea:focus {
+  outline: none;
+}
+#contactForm input[type="submit"] {
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+::placeholder {
+  color: #1e2c36;
 }
