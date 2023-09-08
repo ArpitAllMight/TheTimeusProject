@@ -242,7 +242,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 380px) {
   #contact #banner {
     height: 35vh;
   }
