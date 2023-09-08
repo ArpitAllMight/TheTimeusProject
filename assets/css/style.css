@@ -472,7 +472,7 @@ header.left_menu nav.nav {
 }
 
 /* Contact us */
-main#contact {
+#contact main {
   background: white;
 }
 #contact #banner {
@@ -594,13 +594,15 @@ main#contact {
 #contactForm textarea:focus {
   outline: none;
 }
-#contactForm input[type="submit"] {
+#contactForm #submit-button {
   cursor: pointer;
-  pointer-events: none;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 5px 0;
+  padding: 5px 10px;
+  width: 100%;
+  border: none;
+  margin-bottom: 12px;
 }
 ::placeholder {
   color: #1e2c36;
